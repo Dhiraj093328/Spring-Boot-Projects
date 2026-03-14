@@ -1,13 +1,13 @@
 package com.example.springboot_jpa_demo;
+import org.junit.jupiter.api.Test;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootApplication
-public class SpringbootJpaDemoApplication {
+@SpringBootTest
+class SpringbootAopDemoApplicationTests {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringbootJpaDemoApplication.class, args);
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
