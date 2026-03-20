@@ -41,6 +41,6 @@ public class AuthController {
             return "Login successful";
         }
 
-        return "Invalid password";
+        return "Invalid password.";
     }
 }
